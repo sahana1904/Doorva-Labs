@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>DOORVA LABS</title>
+
+    <style>
+        /* Container that holds div1 and d2 side by side */
+        #container {
+            display: flex;
+            align-items: center;
+            color: white; /* Adjust text color for readability */
+        }
+
+        /* Logo section */
+        #d2 {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        /* Logo image styling */
+        #img1 {
+            width: 200px;
+        }
+
+        /* Body and header section styling */
+        body {
+            padding: 20px; 
+            color: white;
+        }
+
+        .vision p {
+            padding-bottom: 10px;
+        }
+
+        /* Carousel image and caption styling */
+        .carousel-inner {
+            height: 500px;
+        }
+        
+        .carousel-item img {
+            height: 500px;
+        }
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+            padding: 10px;
+            border-radius: 5px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Animation for carousel captions */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+  
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+           <img src="D:\Doorva Labs\img\logo2 (1).jpg" alt="Logo"
+             width="60" height="60" class="d-inline-block align-top" alt="Logo">
+            <div class="ms-3">
+              <div style="font-size: 1.2em; font-weight: bold;">Doorva Labs Private Limited</div>
+              <div style="font-size: 1em; font-style: italic;">Be Relevant</div>
+            </div>
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+      <!-- Carousel -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="D:\Doorva Labs\img\lap.jpg" class="d-block w-100" alt="First Slide">
+              <div class="carousel-caption">
+                <h5>Enhancing Technical Skills</h5>
+                <p>Engineers work on cutting-edge projects, refining their technical skills through hands-on experience and solving real-world problems.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="D:\Doorva Labs\img\gettyimages.jpg" class="d-block w-100" alt="Second Slide">
+            <div class="carousel-caption">
+                <h5>Building Leadership & Collaboration</h5>
+                <p>Through team-based projects, engineers gain essential leadership and collaboration skills, preparing them to lead future initiatives and work seamlessly in multidisciplinary teams.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="D:\Doorva Labs\img\pexels-photo.jpeg" class="d-block w-100" alt="Third Slide">
+            <div class="carousel-caption">
+                <h5>Driving Innovation & Problem-Solving</h5>
+                <p>Our projects challenge engineers to innovate, developing creative solutions and refining problem-solving techniques that are essential for success in today’s tech-driven world.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vision Section -->
+      <div class="vision"> 
+          <h2>Vision</h2>
+          <p>Learn, Teach, Mentor, Collaborate and Build with Passion</p>
+          <p>Our platform offers a unique learning experience that combines theoretical knowledge with real-world application. 
+              We believe that the best way to learn is by doing, and that's why we offer live projects that allow you to apply your skills and knowledge in a practical, hands-on setting.
+          </p>
+          <p>
+              We offer a variety of different services, including:
+              <ul>
+                  <li>Online courses</li>
+                  <li>In-person workshops</li>
+                  <li>Mentorship programs</li>
+                  <li>Collaboration platforms</li>
+                  <li>Resource libraries</li>
+              </ul>
+          </p>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
